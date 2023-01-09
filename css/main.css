@@ -188,6 +188,8 @@ body {
 .hero__linkP {}
 
 .hero__img {
+  width: 100px;
+  height: 28px;
 }
 
 .hero__bigImag {
