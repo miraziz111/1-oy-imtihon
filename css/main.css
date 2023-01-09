@@ -71,7 +71,7 @@ body {
 .header__item {
   margin-right: 40px;
 }
-.header__item
+
 
 
 
@@ -180,8 +180,8 @@ visibility: hidden;
 }
 
 .hero__item{
-  width: 15px;
-  height: 36px;
+  /* width: 15px;
+  height: 36px; */
 }
 .header__item:hover{
   border-bottom: 2px solid black;
