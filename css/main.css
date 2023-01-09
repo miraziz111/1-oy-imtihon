@@ -69,8 +69,9 @@ body {
 }
 
 .header__item {
-  margin-right: 50px;
+  margin-right: 40px;
 }
+.header__item
 
 
 
@@ -130,6 +131,34 @@ body {
   line-height: 42px;
   color: #FFFFFF;
 }
+.header__item{
+  position: relative;
+  
+}
+.header_sublist {
+  position: absolute;
+  width: 95px;
+  top: 30px;
+  right: 0;
+  left: 0;
+z-index: 999;
+color: transparent;
+border-radius:2px ;
+visibility: hidden;
+}
+.header__item:hover  .header_sublist{
+  background-color: #25aacb;
+  visibility: visible;
+  color: red;
+}
+
+.header_sublink {
+  
+}
+.header_sublink:hover{
+  color:red;
+  padding: 4px 6px;
+}
 
 .hero__link {
   display: flex;
@@ -138,16 +167,34 @@ body {
 }
 
 .hero__button {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
   margin-right: 20px;
-  padding: 13px 31px;
   background: #FFFFFF;
   border-radius: 50px;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: -0.16px;
-
   color: #0F2137;
+}
+
+.hero__item{
+  width: 15px;
+  height: 36px;
+}
+.header__item:hover{
+  border-bottom: 2px solid black;
+  /* padding: 4px; */
+  /* border-radius:30px; */
+}
+
+.header__item:active{
+  border: 2px solid transparent;
+  background-color: grey;
+
+  /* padding: 4px; */
+  /* border-radius:30px; */
 }
 
 .hero__youtube {
@@ -157,7 +204,6 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: -0.16px;
   color: #FFFFFF;
 }
 
@@ -210,6 +256,14 @@ body {
 .section__app {
   text-align: center;
 
+}
+
+.page-img__box{
+  text-align: center;
+}
+
+.page-img__bir{
+  margin-right: 14px;
 }
 
 .text__app {
@@ -513,7 +567,9 @@ content: url("../imags/arrow-top.png");
   height: 113px;
 }
 
-.page {}
+.page {
+  margin-bottom: 141px;
+}
 
 .page__box {}
 
@@ -535,7 +591,7 @@ content: url("../imags/arrow-top.png");
 }
 
 .page__box__card {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .page__list {
@@ -610,6 +666,9 @@ content: url("../imags/arrow-top.png");
   display: flex;
   align-items: center;
   justify-content: space-around;
+  background-image: url("../imags/Bg_33.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .secure__img {
